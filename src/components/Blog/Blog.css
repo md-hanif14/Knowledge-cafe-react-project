@@ -1,0 +1,52 @@
+.blog {
+    width: 845px;
+    height: 813px;
+}
+
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog img {
+    width: 845px;
+    height: 450px;
+}
+
+.blog .author img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.blog .author div p {
+    margin-top: 0;
+}
+
+.blog .author div h5 {
+    margin-bottom: 0;
+}
+
+.blog-header {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #111111;
+}
+
+.bookmark {
+    display: flex;
+    align-items: center;
+}
+
+.bookmark button {
+    width: 20px;
+}

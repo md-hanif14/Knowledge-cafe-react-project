@@ -1,0 +1,26 @@
+.blogs-container {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.qaPart {
+    width: 700px;
+    margin: 30px;
+    background-color: aquamarine;
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.bookmark-container {
+    position: fixed;
+    top: 4rem;
+    right: 20rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .bookmark-container {
+        position: relative;
+
+    }
+}

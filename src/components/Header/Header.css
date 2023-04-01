@@ -1,0 +1,30 @@
+.header{
+    width: 1280px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+div .header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+div .header a:hover{
+    color: orangered;
+}
+
+.header-name{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 160%;
+/* identical to box height, or 64px */
+
+
+color: #111111;
+}
